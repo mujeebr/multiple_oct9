@@ -13,5 +13,3 @@ if st.button("Predict"):
     features = np.array([[House_size,Bedrooms]])
     output= model.predict(features)
     st.write(f"The price of the house is {output[0]}")
-
-
